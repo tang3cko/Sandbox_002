@@ -19,7 +19,7 @@ You learn how to render massive amounts of animated characters (like DOOM or Wor
 | **The Soul Extractor** | Baker - Editor tool that bakes animations into textures |
 | **The Flesh Texture** | Data - Position/Normal Texture (RGBAHalf/RGBAFloat) |
 | **The Reanimator** | Shader - Custom vertex shader for VAT playback |
-| **The Legion** | Instancing - Mass rendering via `RenderMeshInstanced` |
+| **The Legion** | Instancing - Mass rendering via `DrawMeshInstancedIndirect` |
 
 ---
 
@@ -37,12 +37,13 @@ You learn how to render massive amounts of animated characters (like DOOM or Wor
 Assets/
 └── _Project/
     └── 01_VAT/
+        ├── Generated/      # Baked VAT assets (.gitignore)
+        ├── Models/         # Source FBX models (.gitignore)
         ├── Scenes/
         ├── Scripts/
         │   ├── Core/       # Runtime scripts
         │   └── Editor/     # Editor extensions (Baker, etc.)
-        ├── Shaders/
-        └── Materials/
+        └── Shaders/
 ```
 
 ---
@@ -64,6 +65,13 @@ Assets/
 4. Interpolate between frames for smooth playback
 
 ---
+
+## Setup
+
+1. Download a character with animation from [Mixamo](https://www.mixamo.com/)
+2. Place FBX file in `Assets/_Project/01_VAT/Models/`
+3. Open Baker window: `Window > VAT > Baker`
+4. Select the model and bake
 
 ## Environment
 

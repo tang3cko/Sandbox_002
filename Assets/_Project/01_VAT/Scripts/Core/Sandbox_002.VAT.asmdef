@@ -1,0 +1,14 @@
+{
+    "name": "Sandbox_002.VAT",
+    "rootNamespace": "Sandbox_002.VAT",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

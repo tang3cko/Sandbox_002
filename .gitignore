@@ -3,6 +3,10 @@ Assets/_Recovery*
 # Large asset files (kept locally, not tracked)
 Assets/Ultimate Game Music Collection/
 Assets/Universal Sound FX/
+
+# VAT project - Mixamo assets (download from mixamo.com)
+Assets/_Project/01_VAT/Models/
+Assets/_Project/01_VAT/Generated/
 .idea/.idea*/
 
 # Steam Development
